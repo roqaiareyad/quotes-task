@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- font awesome -->
+    <link rel="stylesheet" href="css/all.min.css">
+    <!-- style css -->
+    <link rel="stylesheet" href="css/style.css">
+    <title>Quotes App</title>
+</head>
+<body>
+    
+    <div class="container">
+        <div class="wrapper-qoute bg-white p-5 shadow shado-lg mx-3">
+            <i class="fa-solid fa-quote-left top-icon"></i>
+            <div>
+                <img  id="img" src="IMG/start.jpg" class="rounded-circle" alt="">
+            </div>
+
+            <div id="quote" class="mt-3">
+                <p class="text-center my-5">New Quotes New Passion</p>
+            </div>
+
+            <div class="my-2">
+                <span id="author"></span>
+            </div>
+            <button class="btn btn-outline-dark mt-4 mx-auto d-block" onclick="displayQuotes()">Get New Quote</button>
+            <i class="fa-solid fa-quote-right bottom-icon"></i>
+        </div>
+
+        <!-- end container -->
+    </div>
+
+    
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/index.js"></script>
+</body>
+</html>
